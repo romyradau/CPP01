@@ -6,4 +6,4 @@ int	main(){
 	newZombie("FOO");
 }
 
-//delete nicht vergessen!!
+delete nicht vergessen!!
