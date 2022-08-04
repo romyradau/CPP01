@@ -1,4 +1,4 @@
-NAME = brainzzz
+NAME = MoreBrainzzz
 
 CC = c++
 
@@ -6,7 +6,7 @@ FLAGS = -Wall -Wextra -Werror -std=c++98
 
 FLAGS += -g
 
-SRC = main.cpp newZombie.cpp Zombie.cpp
+SRC = main.cpp  Zombie.cpp ZombieHorde.cpp
 
 
 

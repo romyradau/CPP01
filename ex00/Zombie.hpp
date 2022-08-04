@@ -3,6 +3,7 @@
 # include <iostream>
 # include <iomanip>
 # include <string>
+# include <new>
 
 class Zombie{
 
@@ -12,8 +13,7 @@ class Zombie{
 		~Zombie();
 
 		void	announce(void);
-		std::string set_name(void);
-
+		
 	private:
 
 		std::string	_name;
