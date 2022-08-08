@@ -19,3 +19,4 @@ void	Weapon::setType(std::string const& new_type){
 
 	_type = new_type;
 }
+//weil wir keien kopie von dem string sondern den tatsachlichen string zuweisen wollen
