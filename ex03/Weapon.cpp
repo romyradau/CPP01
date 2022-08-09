@@ -10,13 +10,12 @@ Weapon::~Weapon(){
 
 std::string const& Weapon::getType(){
 
-	// std::string & type_ref = this->_type;
 	return (this->_type);
 }
-//der castet das selber in ein reference
+//gets automatically casted into a ref
 
 void	Weapon::setType(std::string const& new_type){
 
 	_type = new_type;
 }
-//weil wir keien kopie von dem string sondern den tatsachlichen string zuweisen wollen
+//const bc we want to give the actual new_type not a copy of it

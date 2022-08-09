@@ -13,5 +13,5 @@ int	main(int argc, char *argv[]){
 	}
 	complaint = argv[1];
 	Harl2.complain(complaint);
-
+	return (0);
 };

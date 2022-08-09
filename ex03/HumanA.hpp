@@ -15,6 +15,3 @@ class HumanA{
 		std::string _name;
 		Weapon&		_WeaponA;
 };
-
-//woher weiss man ob private wenn nicht angegeben?
-//selber entscheiden was wann besser ist?

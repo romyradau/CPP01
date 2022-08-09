@@ -15,9 +15,7 @@ void	HumanB::attack()const{
 
 	std::cout << this->_name << " attacks with their " << this->_WeaponB->getType() << std::endl;
 }
-//hier braucht man nichtmal this
-//this nochmal besser verstehen..
-//cons und static auch!
+//i need a get_type_function, bc the mainwants to access the private attribute
 
 void	HumanB::setWeapon(Weapon& weapon){
 

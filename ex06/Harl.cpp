@@ -18,7 +18,6 @@ void	Harl::complain( std::string level){
 		"WARNING",
 		"ERROR"
 	};
-	//stringArray
 	void	(Harl::*function[])(void) = {
 
 		&Harl::debug,
@@ -27,7 +26,6 @@ void	Harl::complain( std::string level){
 		&Harl::error
 
 	};
-
 	for (int i = 0; i < 4; i++)
 	{
 		if (levels[i] == level)

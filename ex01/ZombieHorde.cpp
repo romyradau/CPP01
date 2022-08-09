@@ -12,6 +12,5 @@ Zombie*	zombieHorde( int N, std::string name){
 		ZombieHorde[i].set_name(name, i);
 		ZombieHorde[i].announce();
 	}
-
 	return (ZombieHorde);
 }

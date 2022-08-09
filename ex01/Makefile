@@ -1,4 +1,4 @@
-NAME = MoreBrainzzz
+NAME = moreBrainzzz
 
 CC = c++
 

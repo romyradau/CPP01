@@ -22,12 +22,3 @@ int main()
 	}
 	return 0;
 }
-
-
-//wann soll man hier überall references benutzen?
-//weil ich die attack function in der main benutze bracueh ich eine get function
-
-
-/*In which case do you think it would be best to use a pointer to
-Weapon? And a reference to Weapon? Why? Think about it before
-starting this exercise.*/

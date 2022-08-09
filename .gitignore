@@ -1,11 +1,12 @@
-.vscode
-Brainzzz
-MoreBrainzzz
+brainzzz
+moreBrainzzz
+brain
 human
-Brain
 loser
 harl
 harlFilter
 .DS_Store
 *.dSYM
 *.replace
+.gitignore
+.vscode

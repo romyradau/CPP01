@@ -1,4 +1,4 @@
-NAME = Brainzzz
+NAME = brainzzz
 
 CC = c++
 

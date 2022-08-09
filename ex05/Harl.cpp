@@ -18,7 +18,6 @@ void	Harl::complain( std::string level){
 		"error"
 	};
 	//stringArray
-
 	void	(Harl::*function[])(void) = {
 
 		&Harl::debug,
@@ -33,7 +32,7 @@ void	Harl::complain( std::string level){
 		if (levels[i] == level)
 		{
 			(this->*function[i])();
-			//sagt auf welche Instanz das angewendet werden soll
+			//in order to call a function pointer, you need the functions instance
 			return;
 		}
 	}

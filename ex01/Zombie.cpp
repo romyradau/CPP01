@@ -15,13 +15,13 @@ void Zombie::announce(void){
 }
 
 void Zombie::set_name(std::string name, int i){
+
 	i++;
 	std::string s;
-
 	std::ostringstream tem;
 	tem << i;
 	s = tem.str();
-
+	//make string out of integer
 	name = name + " " + s;
 	this->_name = name;
 }
